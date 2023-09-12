@@ -9,7 +9,7 @@ export const Cube = ({ id, position, texture }) => {
 
   const [ref] = useBox(() => ({
     type: 'Static',
-    position
+    position 
   }))
 
   const activeTexture = textures[texture + 'Texture']
